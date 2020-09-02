@@ -1,7 +1,7 @@
 ﻿/*
 * Chris Smith
 * Assignment 2
-* Trigger and display losing text box.
+* Sets gameOver to false upon falling off the map.
 */
 using System.Collections;
 using System.Collections.Generic;

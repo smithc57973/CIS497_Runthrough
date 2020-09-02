@@ -7,7 +7,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TriggerZoneAddScoreOnce : MonoBehaviour
+public class TriggerZoneScoring : MonoBehaviour
 {
     private bool triggered = false;
 

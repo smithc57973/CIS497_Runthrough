@@ -1,7 +1,7 @@
 ﻿/*
 * Chris Smith
 * Assignment 2
-* Trigger and display winning textbox
+* Increments score counter upon triggering zone.
 */
 using System.Collections;
 using System.Collections.Generic;
