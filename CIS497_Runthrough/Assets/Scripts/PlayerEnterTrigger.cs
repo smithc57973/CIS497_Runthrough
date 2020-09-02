@@ -1,18 +1,20 @@
-﻿using System.Collections;
+﻿/*
+* Chris Smith
+* Assignment 2
+* Trigger and display winning textbox
+*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-//Using statement for UI
-using UnityEngine.UI;
+
 
 public class PlayerEnterTrigger : MonoBehaviour
 {
-    public Text textbox;
-
     private void OnTriggerEnter(Collider other)
     {
-        if(other.CompareTag("Finish"))
+        if(other.CompareTag("TriggerZone"))
         {
-            textbox.text = "You Win!";
+            ScoreManager.score++;
         }
     }
 }
